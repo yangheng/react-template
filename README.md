@@ -1,6 +1,6 @@
-# 智能数字阅读器
+# react-template
 
-> 智能数字阅读器 powered by [React.js](http://facebook.github.io/react/) and [Webpack](http://webpack.github.io/)
+> react-template powered by [React.js](http://facebook.github.io/react/) and [Webpack](http://webpack.github.io/)
 
 
 ### Features
