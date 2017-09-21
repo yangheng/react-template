@@ -1,0 +1,95 @@
+@import "variable";
+
+body{
+  background-color: $mainBackGroundColor !important;
+}
+*{
+  border-radius: 0;
+}
+.wrap-left{
+  background-color:$contentBackground;
+  padding:0 10px;
+}
+.wrap-left-top{
+  text-align:center;
+  font-size:14px;
+  color:$welcomeBackGround;
+  border-bottom:1px solid $borderColor;
+  padding-bottom:15px;
+  img{
+    border-radius: 50%;
+    width:90px;
+    height:90px;
+    margin:20px 0 10px;
+  }
+  .level{
+    font-size: 10px;
+    color: $mainColor;
+    border:1px solid $mainColor;
+    border-radius: 20px;
+    padding:0 10px;
+    height:18px;
+    line-height:18px;
+    display:inline-block;
+    margin-top:5px
+  }
+}
+.wrap-left-button{
+  padding:15px 20px 20px;
+  font-size:14px;
+  line-height:48px;
+  text-align:center;
+  a{
+    color: $welcomeBackGround;
+  }
+}
+.ant-table{
+  border-radius: 0 !important;
+  background: $contentBackground;
+
+  table tr:nth-of-type(even){
+    background: $evenBackground;
+  }
+  table td{
+    text-align: center;
+  }
+}
+
+.font-big{
+  font-size: 1.2rem;
+}
+.font-middle{
+  font-size: 1rem;
+}
+.font_info{
+  font-size: 0.6rem;
+  color: orange;
+}
+.container_body{
+  background-color: $contentBackground;
+}
+table{
+  thead{
+    &.ant-table-thead{
+    >tr {
+     >th{
+       background-color:#cbbc9d;
+       color:#ffffff;
+       text-align: center;
+     }
+    }
+    }
+
+
+  }
+}
+// ant override
+
+.ant-btn{
+  border-radius: 1px ;
+  background-color: $mainColor !important;
+  color: $contentBackground !important;
+}
+a.activeLink{
+  color: $logoColor !important;
+}

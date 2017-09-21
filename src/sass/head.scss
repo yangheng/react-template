@@ -1,0 +1,37 @@
+@import "variable";
+.ant_layout_header{
+  background-color: white;
+  padding: 18px 0;
+  line-height: 100%;
+  .logo{
+    color: $logoColor;
+  }
+  a{
+    color: $welcomeBackGround;
+    &:active{
+      color: $logoColor;
+    }
+  }
+  border-bottom: 2px solid $logoUnderLine;
+  margin-bottom: 1.2rem;
+}
+.welcome{
+  padding: 8px 0;
+  background-color: $welcomeBackGround;
+  font-size: 12px;
+  color: $welcomeColor;
+  ul{
+    li{
+      float: left;
+      padding: 0 20px;
+      border-right:1px solid $welcomeColor ;
+      &:first-child,&:last-child{
+        border-right: 0;
+      }
+      a{
+        color: $welcomeColor;
+      }
+
+    }
+  }
+}
